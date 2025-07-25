@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PersonalFinanceManager.Infrastructure.Services
 {
-    internal class ExportService
+    public class ExportService
     {
     }
 }

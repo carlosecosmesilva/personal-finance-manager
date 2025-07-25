@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonalFinanceManager.Domain.Entities
+namespace PersonalFinanceManager.Domain.Enums
 {
-    internal class Accounts
+    public enum TransactionType
     {
+        Income,
+        Expense
     }
 }
